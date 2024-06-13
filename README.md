@@ -1,1 +1,0 @@
-# latex-lorem-ipsum
