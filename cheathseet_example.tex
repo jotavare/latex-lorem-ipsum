@@ -1,0 +1,141 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{enumitem}
+
+\title{\LaTeX\ Cheat Sheet}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Document Structure}
+\begin{itemize}[noitemsep]
+    \item \texttt{\textbackslash documentclass\{article\}}: Set document class.
+    \item \texttt{\textbackslash usepackage\{package\}}: Include package.
+    \item \texttt{\textbackslash begin\{document\}} ... \texttt{\textbackslash end\{document\}}: Document content.
+    \item \texttt{\textbackslash section\{Title\}}: Section heading.
+    \item \texttt{\textbackslash subsection\{Title\}}: Subsection heading.
+    \item \texttt{\textbackslash paragraph\{Title\}}: Paragraph heading.
+\end{itemize}
+
+\section{Text Formatting}
+\begin{itemize}[noitemsep]
+    \item \texttt{\textbackslash textbf\{bold\}}: \textbf{bold}
+    \item \texttt{\textbackslash textit\{italic\}}: \textit{italic}
+    \item \texttt{\textbackslash underline\{underline\}}: \underline{underline}
+    \item \texttt{\textbackslash texttt\{typewriter\}}: \texttt{typewriter}
+    \item \texttt{\textbackslash emph\{emphasis\}}: \emph{emphasis}
+\end{itemize}
+
+\section{Lists}
+\subsection{Bulleted List}
+\begin{verbatim}
+\begin{itemize}
+    \item Item 1
+    \item Item 2
+\end{itemize}
+\end{verbatim}
+\begin{itemize}
+    \item Item 1
+    \item Item 2
+\end{itemize}
+
+\subsection{Numbered List}
+\begin{verbatim}
+\begin{enumerate}
+    \item First item
+    \item Second item
+\end{enumerate}
+\end{verbatim}
+\begin{enumerate}
+    \item First item
+    \item Second item
+\end{enumerate}
+
+\section{Math}
+\subsection{Inline Math}
+\begin{verbatim}
+This is inline math: $E = mc^2$.
+\end{verbatim}
+This is inline math: $E = mc^2$.
+
+\subsection{Displayed Math}
+\begin{verbatim}
+\[
+    E = mc^2
+\]
+\end{verbatim}
+\[
+    E = mc^2
+\]
+
+\section{Tables}
+\begin{verbatim}
+\begin{tabular}{|c|c|}
+\hline
+A & B \\
+\hline
+1 & 2 \\
+\hline
+3 & 4 \\
+\hline
+\end{tabular}
+\end{verbatim}
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+A & B \\
+\hline
+1 & 2 \\
+\hline
+3 & 4 \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Figures}
+\begin{verbatim}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{example.jpg}
+    \caption{Sample Figure}
+    \label{fig:sample}
+\end{figure}
+\end{verbatim}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{example.jpg}
+    \caption{Sample Figure}
+    \label{fig:sample}
+\end{figure}
+
+\section{References and Links}
+\begin{itemize}[noitemsep]
+    \item \texttt{\textbackslash label\{label\}}: Set a label.
+    \item \texttt{\textbackslash ref\{label\}}: Refer to a label.
+    \item \texttt{\textbackslash href\{url\}\{text\}}: \href{http://example.com}{Example Link}.
+\end{itemize}
+
+\section{Code}
+\begin{verbatim}
+\begin{verbatim}
+Code goes here
+\end{verbatim}
+\end{verbatim}
+
+\section{Colors}
+\begin{verbatim}
+\textcolor{red}{Red Text}
+\end{verbatim}
+\textcolor{red}{Red Text}
+
+\end{document}
