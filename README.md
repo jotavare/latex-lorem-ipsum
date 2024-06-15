@@ -1,6 +1,6 @@
 ## ABOUT
 
-This repository provides an example project for working with LaTeX. It includes a basic structure for creating documents and demonstrates the use of various features in LaTeX.
+This repository provides example projects for working with LaTeX. It includes a basic structure for creating documents and demonstrates the use of various features in LaTeX. Each example includes a `.tex` file and a corresponding `.pdf` output.
 
 ## REQUIREMENTS
 
