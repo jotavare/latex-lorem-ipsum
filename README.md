@@ -16,4 +16,4 @@ If you find any issues or have suggestions for improvements, feel free to fork t
 
 ## LICENSE
 
-This project is licensed under The Unlicense License. See the [LICENSE](https://github.com/jotavare/godot-simple-game/blob/main/LICENSE) file for details.
+This project is available under the MIT License. For further details, please refer to the [LICENSE](https://github.com/jotavare/latex-lorem-ipsum/blob/main/LICENSE) file.
