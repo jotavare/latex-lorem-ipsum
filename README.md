@@ -5,14 +5,14 @@ This repository provides example projects for working with LaTeX. It includes a 
 ## REQUIREMENTS
 
 - Latex Workshop extension for Visual Studio Code.
-- Strawberry Pearl.
+- Strawberry Perl.
 - For Windows: MiKTeX.
 - For macOS: MacTeX.
 - For Linux: TeX Live `sudo apt-get install texlive-full`
 
 ## CONTRIBUTING
 
-If you find any issues or have suggestions for improvements, feel free to fork the repository and open an issue or submit a pull request.
+This repository is not open to contributions.
 
 ## LICENSE
 
