@@ -26,7 +26,7 @@ This repository provides example projects for working with LaTeX. It includes a 
 
 ## CONTRIBUTING
 
-This repository is not open to contributions.
+This repository is finished and not open to changes.
 
 ## LICENSE
 
