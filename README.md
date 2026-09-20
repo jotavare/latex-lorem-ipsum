@@ -1,17 +1,3 @@
-<p align="center">
-	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square"/>
-	<img src="https://img.shields.io/github/languages/top/jotavare/latex-lorem-ipsum?color=%2312bab9&style=flat-square"/>
-	<img src="https://img.shields.io/github/last-commit/jotavare/latex-lorem-ipsum?color=%2312bab9&style=flat-square"/>
-	<a href='https://www.linkedin.com/in/jotavare' target="_blank"><img alt='Linkedin' src='https://img.shields.io/badge/LinkedIn-blue?style=flat-square'/></a>
-</p>
-
-<p align="center">
-	<a href="#about">About</a> •
-	<a href="#requirements">Requirements</a> •
-	<a href="#contributing">Contributing</a> •
-	<a href="#license">License</a>
-</p>
-
 ## ABOUT
 
 This repository provides example projects for working with LaTeX. It includes a basic structure for creating documents and demonstrates the use of various features in LaTeX. Each example includes a `.tex` file and a corresponding `.pdf` output.
@@ -23,11 +9,3 @@ This repository provides example projects for working with LaTeX. It includes a 
 - For Windows: MiKTeX.
 - For macOS: MacTeX.
 - For Linux: TeX Live `sudo apt-get install texlive-full`
-
-## CONTRIBUTING
-
-This repository is finished and not open to changes.
-
-## LICENSE
-
-This project is available under the MIT License. For further details, please refer to the [LICENSE](https://github.com/jotavare/latex-lorem-ipsum/blob/main/LICENSE) file.
